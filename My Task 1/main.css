@@ -1,0 +1,628 @@
+.container-fluid{
+	width:100%;
+}
+
+.bg{
+	height:800px;
+}
+.img-res{
+	width:100%;
+}
+.carousel-inner{
+	position:relative;
+	
+}
+
+.logo{
+	
+	position:absolute;
+	top:40px;
+}
+
+.nav{
+	border-style:none;
+	font-size:25px;
+	float: right;
+	
+}
+.nav>li>a
+{
+    color:#d9b65c;
+	text-transform:capitalize;
+	margin-top:40px;
+	font-family: 'Slabo 27px', serif;
+}
+.nav>li>a:hover
+{
+    color:#000;
+}
+.design{
+	float:left;
+	width:250px;
+	margin-left:120px;
+}
+.suit{
+	background-image:url("images/jahan4.jpg");
+
+	height:1000px;
+	position:relative;	
+}
+
+.table{
+	width:1200px;
+	height:250px;
+	background-color:##333;
+	margin:30px auto;
+	float:left;
+	margin-left:20px;
+	position:absolute;
+	top:1350px;
+	overflow:hidden;
+}
+.head{
+	padding-top:60px;
+}
+.text{
+	text-align:justify;
+	padding-top:60px;
+	text-transform:capitalize;
+	font-family: 'Slabo 27px', serif;
+	line-height:20px;
+	word-spacing:5px;
+	font-size:20px;
+	line-height:25px;
+}
+.bg2{
+	width:100%;
+	overflow:auto;
+}
+.bg3{ background-color:#F0D997;
+}
+.bg4{
+	background-image:url("images/red1.png");
+}
+.images{
+	background-color:#936666;
+	padding-top:10px;
+	padding-bottom:15px;
+}
+.photo1{
+	width:320px;
+	height:360px;
+	background-color:red;
+	background-image:url("images/jahan25.png");
+	border-radius: 50px / 15px;
+	opacity:0.7;
+}
+.photo1:hover{
+	transform:scale(1.05,1.05);
+	transition:2s;
+}
+.shirt1{
+	padding-top:300px;
+	color:#ffb3b3;
+	float:left;
+	margin-left:15px;
+	font-family: 'Slabo 27px', serif;
+}
+.photo2{
+	width:320px;
+	height:360px;
+	background-color:red;
+	background-image:url("images/jahan26.png");
+	border-radius: 50px / 15px;
+			opacity:0.7;
+}
+.photo2:hover{
+	transform:scale(1.05,1.05);
+	transition:2s;
+}
+.shirt2{
+	padding-top:300px;
+	color:#ffb3b3;
+	float:left;
+	margin-left:15px;
+	font-family: 'Slabo 27px', serif;
+}
+.photo3{
+	width:320px;
+	height:360px;
+	background-image:url("images/jahan27.png");
+	border-radius: 50px / 15px;
+			opacity:0.7;
+}
+.photo3:hover{
+	transform:scale(1.05,1.05);
+	transition:2s;
+}
+.shirt3{
+	padding-top:300px;
+	color:#ffb3b3;
+	float:left;
+	margin-left:15px;
+	font-family: 'Slabo 27px', serif;
+}
+.images1{
+	background-color:#936666;
+	padding-top:20px;
+		padding-bottom:20px;
+		padding-bottom:15px;
+}
+.photo4{
+	width:320px;
+	height:360px;
+	background-color:red;
+	background-image:url("images/jahan28.png");
+	border-radius: 50px / 15px;
+			opacity:0.7;
+}
+.photo4:hover{
+	transform:scale(1.05,1.051);
+	transition:2s;
+}
+.shirt4{
+	padding-top:300px;
+	color:#ffb3b3;
+	float:left;
+	margin-left:15px;
+	font-family: 'Slabo 27px', serif;
+}
+
+.photo5{
+	width:320px;
+	height:360px;
+	background-color:red;
+	background-image:url("images/jahan29.png");
+	border-radius: 50px / 15px;
+			opacity:0.7;
+}
+.photo5:hover{
+	transform:scale(1.05,1.05);
+	transition:2s;
+}
+.shirt5{
+	padding-top:300px;
+	color:#ffb3b3;
+	float:left;
+	margin-left:15px;
+	font-family: 'Slabo 27px', serif;
+}
+.photo6{
+	width:320px;
+	height:360px;
+	background-image:url("images/jahan30.png");
+	border-radius: 50px / 15px;
+			opacity:0.7;
+}
+.photo6:hover{
+	transform:scale(1.05,1.05);
+	transition:2s;
+}
+.shirt6{
+	padding-top:300px;
+	color:#ffb3b3;
+	float:left;
+	margin-left:15px;
+	font-family: 'Slabo 27px', serif;
+}
+.images2{
+	background-color:#936666;
+	padding-top:20px;
+	padding-bottom:15px;
+
+}
+.photo7{
+	width:320px;
+	height:360px;
+	background-color:red;
+	background-image:url("images/jahan31.png");
+	border-radius: 50px / 15px;
+			opacity:0.7;		
+}
+.photo7:hover{
+	transform:scale(1.05,1.05);
+	transition:2s;
+	
+}
+.shirt7{
+	padding-top:300px;
+	float:left;
+	margin-left:15px;
+	font-family: 'Slabo 27px', serif;
+	animation-duration: 4s;
+	animation-name:Hyderabad2;
+	text-shadow:2px 2px 10px yellow;
+	font-style:bold;
+}
+@keyframes Hyderabad2{
+    from {color: red;}
+    to {color: Green;}
+}
+.photo8{
+	width:320px;
+	height:360px;
+	background-image:url("images/jahan32.png");
+	border-radius: 50px / 15px;
+		opacity:0.7;
+	}
+.photo8:hover{
+	transform:scale(1.05,1.05);
+	transition:2s;	
+
+}
+.shirt8{
+	padding-top:300px;
+	float:left;
+	margin-left:15px;
+	font-family: 'Slabo 27px', serif;
+	animation-duration: 4s;
+	animation-name:Hyderabad2;
+	text-shadow:2px 2px 10px yellow;
+}
+@keyframes Hyderabad2{
+    from {color: red;}
+    to {color: Green;}
+}
+.photo9{
+	width:320px;
+	height:360px;
+	background-image:url("images/jahan33.png");
+	border-radius: 50px / 15px;
+			opacity:0.7;
+}
+.photo9:hover{
+	transform:scale(1.05,1.05);
+	transition: 2s;
+}
+.shirt9{
+	padding-top:300px;
+	float:left;
+	margin-left:15px;
+	font-family: 'Slabo 27px', serif;
+	animation-duration: 4s;
+	animation-name:Hyderabad1;
+	text-shadow:2px 2px 10px yellow;
+}
+@keyframes Hyderabad1{
+    from {color: red;}
+    to {color: Green;}
+}
+.carousel-control {
+  padding-top:10%;
+   height:500px;
+  width:500px;
+
+}
+.thumb{
+	position:relative;
+	height:500px;
+
+}
+.slider{
+	position:absolute;
+	top:20px;
+}
+.img-responsive{
+	width:100%;
+	background-color:#57423C;
+	
+
+}
+.bg5{
+	width:100%;
+	background-color:#57423C;
+}
+.container {
+    margin-top: 20px;
+}
+.img-responsive{
+	width:100%;
+}
+
+/* Carousel Styles */
+.carousel-indicators1{
+	display:none;
+}
+.carousel-indicators1 .standard {
+    background-color: #2980b9;
+}
+
+.carousel-inner1 img {
+    width: 100%;
+   
+}
+
+.carousel-control {
+    width: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;
+}
+
+.carousel-control.left span {
+	padding: 15px;
+}
+
+.carousel-control.right span {
+	padding: 15px;
+}
+
+
+.carousel-control.left span,
+.carousel-control.right span {
+	background-color: #000;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size: 40px;
+
+}
+.header-text h2 strong{
+animation-duration: 4s;
+color:white;
+animation-name:Hyderabad;
+text-shadow:2px 2px 10px yellow; 
+}
+@keyframes Hyderabad{
+    from {color: red;}
+    to {color: Green;}
+}
+.header-text h2 span {
+    background-color: #2980b9;
+	padding: 10px;
+}
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+
+.btn-theme:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+.bg7{
+	background-image:url("images/texture.jpg")
+}
+.bg8{
+	background-color:#BF963F;
+	height:685px;
+
+}
+
+
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container-android .swiper-slide, .swiper-wrapper {
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -o-transform: translate(0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    -ms-transition-property: -ms-transform;
+    transition-property: transform;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.swiper-slide {
+    -webkit-flex-shrink: 0;
+    -ms-flex: 0 0 auto;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+#lab_video_text_overlay {
+    position: absolute;
+    color: #FFF;
+    width: 100%;
+    top: 25%;
+}
+#lab_video_text_overlay .container {
+    text-align: center;
+    margin: 0px auto;
+}
+#lab_video_text_overlay .container {
+    text-align: center;
+    margin: 0px auto;
+    background-color: transparent; 
+}
+
+#lab_video_text_overlay h2 {
+  font-size:4em
+}
+
+#lab_video_text_overlay .btn {
+  border-radius:0;
+  text-transform:uppercase;
+  font-weight:200;
+}
+#lab_video_text_overlay .btn-warning {
+  background-color:#F5D328;
+}
+
+#lab_video_text_overlay .container {
+    text-align: center;
+    margin: 0px auto;
+}
+#lab_video_text_overlay h2 {
+    font-size: 4em;
+}
+#lab_video_text_overlay .btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+#lab_video_text_overlay .btn-warning {
+    background-color: #F5D328;
+}
+#lab_video_text_overlay {
+    position: absolute;
+    color: #FFF;
+    width: 100%;
+    top: 25%;
+    z-index:99;
+}
+
+
+
+
+
+
+@media screen and (max-width:991px) {
+  #lab_video_text_wrap {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width:650px) {
+  #lab_video_text_wrap {
+    height: 250px;
+  }
+  #lab_video_text_overlay h2 {
+    font-size: 2em;
+  }
+  #lab_video_text_overlay p {
+    font-size: .9em;
+  }
+}
+.bg9{
+
+	height:500px;
+    background-color: rgba(100, 100, 100, 20.5);
+
+	
+}
+.address{
+	padding-top:25px;
+	color:#dfdfdf;
+	float:left;
+}
+.address p{
+	line-height:24px;
+	text-align:justify;
+	font-size:16px;	
+}
+.address p a{
+	font-size:20px;
+	text-decoration:none;
+	color: pink;
+}
+.address p a:hover{
+	color:black;
+	transparent:1.5s;
+}
+.address1{
+	padding-top:25px;
+	color:#dfdfdf;
+	float:left;
+	margin-left:80px;
+}
+.address p{
+	line-height:24px;
+	text-align:justify;
+	font-size:16px;	
+}
+.register{
+	padding:15px;
+	float:left;
+	margin-left:120px;
+	line-height:20px;
+	margin-top:15px;
+
+}
+.register h3{
+	color:#dfdfdf;
+}
+.register form{
+	padding-top:10px;
+	color:#dfdfdf;
+}
+.register input{
+	border-radius:10px;
+	padding:5px;
+	color:maroon;	
+	
+}
+.register button{
+	float:left;
+	margin-top:15px;
+	text-align:center;
+	color:black;
+	margin-left:12px;
+	font-size:15px;
+	padding:10px;
+	border-radius:10px;
+}
